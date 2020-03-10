@@ -13,10 +13,11 @@ class ParamSetInvalidConversion: public std::exception {
   const std::string value;
   const std::string targetedType;
  public:
-  ParamSetInvalidConversion(const std::string &key, const std::string &value, const std::string &targetedType);
-  [[nodiscard]] const std::string &GetKey() const;
-  const std::string &GetValue() const;
-  const std::string &GetTargetedType() const;
+  ParamSetInvalidConversion(std::string key, std::string value, std::string targetedType);
+  const std::string &GetKey() const noexcept;
+  const std::string &GetValue() const noexcept;
+  const std::string &GetTargetedType() const noexcept;
+  const char* what() const noexcept override;
 };
 
 #endif //RAYTRACER_SRC_EXCEPTION_PARAM_SET_INVALID_CONVERSION_HPP_
