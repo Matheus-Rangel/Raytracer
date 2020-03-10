@@ -1,0 +1,12 @@
+//
+// Created by mathe on 09/03/2020.
+//
+
+#ifndef RAYTRACER_SRC_CORE_PARAM_SET_PARAM_STRING_ITEM_HPP_
+#define RAYTRACER_SRC_CORE_PARAM_SET_PARAM_STRING_ITEM_HPP_
+
+class param_string_item {
+
+};
+
+#endif //RAYTRACER_SRC_CORE_PARAM_SET_PARAM_STRING_ITEM_HPP_
