@@ -7,6 +7,6 @@
 ParamItemType ParamFloatItem::getType() {
   return ParamItemType::Float;
 }
-std::unique_ptr<float> ParamFloatItem::getFloat() {
-  return std::make_unique<float>(this->value);
+float ParamFloatItem::getFloat() {
+  return this->value;
 }

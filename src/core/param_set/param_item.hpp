@@ -8,6 +8,8 @@
 #include <string>
 #include "param_item_type.hpp"
 #include <vector>
+template <typename T>
+using sharedVector = std::shared_ptr<const std::vector<T>>;
 
 class ParamItem {
 
@@ -15,19 +17,19 @@ class ParamItem {
 	virtual ParamItemType getType() {
 	  return ParamItemType::Missing;
 	};
-	virtual std::unique_ptr<bool> getBoolean(){
-	  return nullptr;
+	virtual bool getBoolean(){
+	  return false;
 	}
-	virtual std::unique_ptr<float> getFloat() {
+	virtual float getFloat() {
+	  return 0.0;
+	};
+	virtual int getInteger() {
+	  return 0;
+	};
+	virtual std::shared_ptr<const std::string> getString() {
 	  return nullptr;
 	};
-	virtual std::unique_ptr<int> getInteger() {
-	  return nullptr;
-	};
-	virtual std::unique_ptr<std::string> getString() {
-	  return nullptr;
-	};
-	virtual std::unique_ptr<std::vector<ParamItem>> getArray(){
+	virtual sharedVector<const ParamItem> getArray(){
 	  return nullptr;
 	}
 };

@@ -1,0 +1,4 @@
+/home/matheus_rangel/Downloads/clion/CLion-2019.3.4/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc-7 -DCMAKE_CXX_COMPILER=/usr/bin/g++-7 -G "CodeBlocks - Unix Makefiles" /home/matheus_rangel/Documentos/Raytracer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/matheus_rangel/Documentos/Raytracer/cmake-build-debug

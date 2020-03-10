@@ -9,7 +9,7 @@
 class ParamFloatItem : ParamItem {
  public:
   ParamItemType getType() override;
-  std::unique_ptr<float> getFloat() override;
+  float getFloat() override;
  private:
   float value;
 };

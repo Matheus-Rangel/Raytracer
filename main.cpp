@@ -1,5 +1,5 @@
 #include <iostream>
-#include "lib/pugixml/src/pugixml.hpp"
+#include "pugixml.hpp"
 
 int main() {
 
