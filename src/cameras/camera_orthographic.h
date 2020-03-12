@@ -8,7 +8,7 @@
 
 class CameraOrthographic: Camera {
  public:
-  CameraType getType() override;
+  enums::CameraType getType() override;
 };
 
 #endif //RAYTRACER_SRC_CAMERAS_CAMERA_ORTHOGRAPHIC_H_

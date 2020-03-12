@@ -4,5 +4,5 @@
 
 #include "camera.h"
 CameraType Camera::getType() {
-  return CameraType::Missing;
+  return enums::Missing;
 }

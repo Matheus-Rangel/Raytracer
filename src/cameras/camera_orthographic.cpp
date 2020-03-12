@@ -3,6 +3,6 @@
 //
 
 #include "camera_orthographic.h"
-CameraType CameraOrthographic::getType() {
-  return CameraType::Orthographic;
+enums::CameraType CameraOrthographic::getType() {
+  return enums::CameraType::Orthographic;
 }
