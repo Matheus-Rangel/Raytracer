@@ -9,3 +9,7 @@ enums::BgType BackgroundInterpolated::getType() const {
 glm::vec3 BackgroundInterpolated::sample(const glm::vec2 &point) const {
   return Background::sample(point);
 }
+BackgroundInterpolated::BackgroundInterpolated(const glm::vec3 &bl,
+                                               const glm::vec3 &br,
+                                               const glm::vec3 &tl,
+                                               const glm::vec3 &tr) : bl(bl), br(br), tl(tl), tr(tr) {}

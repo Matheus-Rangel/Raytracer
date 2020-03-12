@@ -9,7 +9,7 @@
 class Background {
  public:
   Background() = default;
-  virtual enums::BgType getType() const;
+  [[nodiscard]] virtual enums::BgType getType() const;
   virtual glm::vec3 sample(const glm::vec2 &point) const;
 };
 
