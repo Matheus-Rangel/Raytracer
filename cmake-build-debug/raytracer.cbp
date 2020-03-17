@@ -196,18 +196,6 @@
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/main.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/cameras/camera_orthographic.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/cameras/camera_orthographic.h">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/Scene.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/Scene.h">
-			<Option target="raytracer"/>
-		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/background/background.cpp">
 			<Option target="raytracer"/>
 		</Unit>
@@ -229,6 +217,12 @@
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_color.h">
 			<Option target="raytracer"/>
 		</Unit>
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_image.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_image.h">
+			<Option target="raytracer"/>
+		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_interpolated.cpp">
 			<Option target="raytracer"/>
 		</Unit>
@@ -241,12 +235,6 @@
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_builder.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_builder.h">
-			<Option target="raytracer"/>
-		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_enums.h">
 			<Option target="raytracer"/>
 		</Unit>
@@ -254,6 +242,12 @@
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_factory.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/impl/camera_orthographic.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/camera/impl/camera_orthographic.h">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/film/film.cpp">
@@ -271,55 +265,22 @@
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_array_item.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_array_item.hpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_float_item.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_float_item.hpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_integer_item.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_integer_item.hpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_item.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_item.hpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_item_type.hpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_set.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_set.hpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_string_item.cpp">
-			<Option target="raytracer"/>
-		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_string_item.hpp">
-			<Option target="raytracer"/>
-		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/parser.cpp">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/parser.h">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/scene_builder.cpp">
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene.cpp">
 			<Option target="raytracer"/>
 		</Unit>
-		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/scene_builder.h">
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene.h">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene_builder.cpp">
+			<Option target="raytracer"/>
+		</Unit>
+		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene_builder.h">
 			<Option target="raytracer"/>
 		</Unit>
 		<Unit filename="/home/matheus_rangel/Documentos/Raytracer/src/exception/param_set_invalid_conversion.cpp">

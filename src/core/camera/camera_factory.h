@@ -7,12 +7,10 @@
 
 #include "camera.h"
 #include "../param_set.h"
-
+#include <memory>
 class CameraFactory {
- private:
-
  public:
-  static Camera getCamera(const ParamSet &ps);
+  static std::unique_ptr<Camera> getCamera(const ParamSet &ps);
 };
 
 #endif //RAYTRACER_SRC_CORE_CAMERA_CAMERA_FACTORY_H_

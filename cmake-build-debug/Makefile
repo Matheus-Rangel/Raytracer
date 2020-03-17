@@ -209,60 +209,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/cameras/camera_orthographic.o: src/cameras/camera_orthographic.cpp.o
-
-.PHONY : src/cameras/camera_orthographic.o
-
-# target to build an object file
-src/cameras/camera_orthographic.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o
-.PHONY : src/cameras/camera_orthographic.cpp.o
-
-src/cameras/camera_orthographic.i: src/cameras/camera_orthographic.cpp.i
-
-.PHONY : src/cameras/camera_orthographic.i
-
-# target to preprocess a source file
-src/cameras/camera_orthographic.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.i
-.PHONY : src/cameras/camera_orthographic.cpp.i
-
-src/cameras/camera_orthographic.s: src/cameras/camera_orthographic.cpp.s
-
-.PHONY : src/cameras/camera_orthographic.s
-
-# target to generate assembly for a file
-src/cameras/camera_orthographic.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.s
-.PHONY : src/cameras/camera_orthographic.cpp.s
-
-src/core/Scene.o: src/core/Scene.cpp.o
-
-.PHONY : src/core/Scene.o
-
-# target to build an object file
-src/core/Scene.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/Scene.cpp.o
-.PHONY : src/core/Scene.cpp.o
-
-src/core/Scene.i: src/core/Scene.cpp.i
-
-.PHONY : src/core/Scene.i
-
-# target to preprocess a source file
-src/core/Scene.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/Scene.cpp.i
-.PHONY : src/core/Scene.cpp.i
-
-src/core/Scene.s: src/core/Scene.cpp.s
-
-.PHONY : src/core/Scene.s
-
-# target to generate assembly for a file
-src/core/Scene.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/Scene.cpp.s
-.PHONY : src/core/Scene.cpp.s
-
 src/core/background/background.o: src/core/background/background.cpp.o
 
 .PHONY : src/core/background/background.o
@@ -344,6 +290,33 @@ src/core/background/impl/background_color.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.s
 .PHONY : src/core/background/impl/background_color.cpp.s
 
+src/core/background/impl/background_image.o: src/core/background/impl/background_image.cpp.o
+
+.PHONY : src/core/background/impl/background_image.o
+
+# target to build an object file
+src/core/background/impl/background_image.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o
+.PHONY : src/core/background/impl/background_image.cpp.o
+
+src/core/background/impl/background_image.i: src/core/background/impl/background_image.cpp.i
+
+.PHONY : src/core/background/impl/background_image.i
+
+# target to preprocess a source file
+src/core/background/impl/background_image.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.i
+.PHONY : src/core/background/impl/background_image.cpp.i
+
+src/core/background/impl/background_image.s: src/core/background/impl/background_image.cpp.s
+
+.PHONY : src/core/background/impl/background_image.s
+
+# target to generate assembly for a file
+src/core/background/impl/background_image.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.s
+.PHONY : src/core/background/impl/background_image.cpp.s
+
 src/core/background/impl/background_interpolated.o: src/core/background/impl/background_interpolated.cpp.o
 
 .PHONY : src/core/background/impl/background_interpolated.o
@@ -398,33 +371,6 @@ src/core/camera/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.s
 .PHONY : src/core/camera/camera.cpp.s
 
-src/core/camera/camera_builder.o: src/core/camera/camera_builder.cpp.o
-
-.PHONY : src/core/camera/camera_builder.o
-
-# target to build an object file
-src/core/camera/camera_builder.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o
-.PHONY : src/core/camera/camera_builder.cpp.o
-
-src/core/camera/camera_builder.i: src/core/camera/camera_builder.cpp.i
-
-.PHONY : src/core/camera/camera_builder.i
-
-# target to preprocess a source file
-src/core/camera/camera_builder.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.i
-.PHONY : src/core/camera/camera_builder.cpp.i
-
-src/core/camera/camera_builder.s: src/core/camera/camera_builder.cpp.s
-
-.PHONY : src/core/camera/camera_builder.s
-
-# target to generate assembly for a file
-src/core/camera/camera_builder.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.s
-.PHONY : src/core/camera/camera_builder.cpp.s
-
 src/core/camera/camera_factory.o: src/core/camera/camera_factory.cpp.o
 
 .PHONY : src/core/camera/camera_factory.o
@@ -451,6 +397,33 @@ src/core/camera/camera_factory.s: src/core/camera/camera_factory.cpp.s
 src/core/camera/camera_factory.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.s
 .PHONY : src/core/camera/camera_factory.cpp.s
+
+src/core/camera/impl/camera_orthographic.o: src/core/camera/impl/camera_orthographic.cpp.o
+
+.PHONY : src/core/camera/impl/camera_orthographic.o
+
+# target to build an object file
+src/core/camera/impl/camera_orthographic.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o
+.PHONY : src/core/camera/impl/camera_orthographic.cpp.o
+
+src/core/camera/impl/camera_orthographic.i: src/core/camera/impl/camera_orthographic.cpp.i
+
+.PHONY : src/core/camera/impl/camera_orthographic.i
+
+# target to preprocess a source file
+src/core/camera/impl/camera_orthographic.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.i
+.PHONY : src/core/camera/impl/camera_orthographic.cpp.i
+
+src/core/camera/impl/camera_orthographic.s: src/core/camera/impl/camera_orthographic.cpp.s
+
+.PHONY : src/core/camera/impl/camera_orthographic.s
+
+# target to generate assembly for a file
+src/core/camera/impl/camera_orthographic.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.s
+.PHONY : src/core/camera/impl/camera_orthographic.cpp.s
 
 src/core/film/film.o: src/core/film/film.cpp.o
 
@@ -506,168 +479,6 @@ src/core/param_set.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set.cpp.s
 .PHONY : src/core/param_set.cpp.s
 
-src/core/param_set/param_array_item.o: src/core/param_set/param_array_item.cpp.o
-
-.PHONY : src/core/param_set/param_array_item.o
-
-# target to build an object file
-src/core/param_set/param_array_item.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o
-.PHONY : src/core/param_set/param_array_item.cpp.o
-
-src/core/param_set/param_array_item.i: src/core/param_set/param_array_item.cpp.i
-
-.PHONY : src/core/param_set/param_array_item.i
-
-# target to preprocess a source file
-src/core/param_set/param_array_item.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.i
-.PHONY : src/core/param_set/param_array_item.cpp.i
-
-src/core/param_set/param_array_item.s: src/core/param_set/param_array_item.cpp.s
-
-.PHONY : src/core/param_set/param_array_item.s
-
-# target to generate assembly for a file
-src/core/param_set/param_array_item.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.s
-.PHONY : src/core/param_set/param_array_item.cpp.s
-
-src/core/param_set/param_float_item.o: src/core/param_set/param_float_item.cpp.o
-
-.PHONY : src/core/param_set/param_float_item.o
-
-# target to build an object file
-src/core/param_set/param_float_item.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o
-.PHONY : src/core/param_set/param_float_item.cpp.o
-
-src/core/param_set/param_float_item.i: src/core/param_set/param_float_item.cpp.i
-
-.PHONY : src/core/param_set/param_float_item.i
-
-# target to preprocess a source file
-src/core/param_set/param_float_item.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.i
-.PHONY : src/core/param_set/param_float_item.cpp.i
-
-src/core/param_set/param_float_item.s: src/core/param_set/param_float_item.cpp.s
-
-.PHONY : src/core/param_set/param_float_item.s
-
-# target to generate assembly for a file
-src/core/param_set/param_float_item.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.s
-.PHONY : src/core/param_set/param_float_item.cpp.s
-
-src/core/param_set/param_integer_item.o: src/core/param_set/param_integer_item.cpp.o
-
-.PHONY : src/core/param_set/param_integer_item.o
-
-# target to build an object file
-src/core/param_set/param_integer_item.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o
-.PHONY : src/core/param_set/param_integer_item.cpp.o
-
-src/core/param_set/param_integer_item.i: src/core/param_set/param_integer_item.cpp.i
-
-.PHONY : src/core/param_set/param_integer_item.i
-
-# target to preprocess a source file
-src/core/param_set/param_integer_item.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.i
-.PHONY : src/core/param_set/param_integer_item.cpp.i
-
-src/core/param_set/param_integer_item.s: src/core/param_set/param_integer_item.cpp.s
-
-.PHONY : src/core/param_set/param_integer_item.s
-
-# target to generate assembly for a file
-src/core/param_set/param_integer_item.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.s
-.PHONY : src/core/param_set/param_integer_item.cpp.s
-
-src/core/param_set/param_item.o: src/core/param_set/param_item.cpp.o
-
-.PHONY : src/core/param_set/param_item.o
-
-# target to build an object file
-src/core/param_set/param_item.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o
-.PHONY : src/core/param_set/param_item.cpp.o
-
-src/core/param_set/param_item.i: src/core/param_set/param_item.cpp.i
-
-.PHONY : src/core/param_set/param_item.i
-
-# target to preprocess a source file
-src/core/param_set/param_item.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.i
-.PHONY : src/core/param_set/param_item.cpp.i
-
-src/core/param_set/param_item.s: src/core/param_set/param_item.cpp.s
-
-.PHONY : src/core/param_set/param_item.s
-
-# target to generate assembly for a file
-src/core/param_set/param_item.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.s
-.PHONY : src/core/param_set/param_item.cpp.s
-
-src/core/param_set/param_set.o: src/core/param_set/param_set.cpp.o
-
-.PHONY : src/core/param_set/param_set.o
-
-# target to build an object file
-src/core/param_set/param_set.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o
-.PHONY : src/core/param_set/param_set.cpp.o
-
-src/core/param_set/param_set.i: src/core/param_set/param_set.cpp.i
-
-.PHONY : src/core/param_set/param_set.i
-
-# target to preprocess a source file
-src/core/param_set/param_set.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.i
-.PHONY : src/core/param_set/param_set.cpp.i
-
-src/core/param_set/param_set.s: src/core/param_set/param_set.cpp.s
-
-.PHONY : src/core/param_set/param_set.s
-
-# target to generate assembly for a file
-src/core/param_set/param_set.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.s
-.PHONY : src/core/param_set/param_set.cpp.s
-
-src/core/param_set/param_string_item.o: src/core/param_set/param_string_item.cpp.o
-
-.PHONY : src/core/param_set/param_string_item.o
-
-# target to build an object file
-src/core/param_set/param_string_item.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o
-.PHONY : src/core/param_set/param_string_item.cpp.o
-
-src/core/param_set/param_string_item.i: src/core/param_set/param_string_item.cpp.i
-
-.PHONY : src/core/param_set/param_string_item.i
-
-# target to preprocess a source file
-src/core/param_set/param_string_item.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.i
-.PHONY : src/core/param_set/param_string_item.cpp.i
-
-src/core/param_set/param_string_item.s: src/core/param_set/param_string_item.cpp.s
-
-.PHONY : src/core/param_set/param_string_item.s
-
-# target to generate assembly for a file
-src/core/param_set/param_string_item.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.s
-.PHONY : src/core/param_set/param_string_item.cpp.s
-
 src/core/parser.o: src/core/parser.cpp.o
 
 .PHONY : src/core/parser.o
@@ -695,32 +506,59 @@ src/core/parser.cpp.s:
 	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/parser.cpp.s
 .PHONY : src/core/parser.cpp.s
 
-src/core/scene_builder.o: src/core/scene_builder.cpp.o
+src/core/scene/scene.o: src/core/scene/scene.cpp.o
 
-.PHONY : src/core/scene_builder.o
+.PHONY : src/core/scene/scene.o
 
 # target to build an object file
-src/core/scene_builder.cpp.o:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o
-.PHONY : src/core/scene_builder.cpp.o
+src/core/scene/scene.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o
+.PHONY : src/core/scene/scene.cpp.o
 
-src/core/scene_builder.i: src/core/scene_builder.cpp.i
+src/core/scene/scene.i: src/core/scene/scene.cpp.i
 
-.PHONY : src/core/scene_builder.i
+.PHONY : src/core/scene/scene.i
 
 # target to preprocess a source file
-src/core/scene_builder.cpp.i:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.i
-.PHONY : src/core/scene_builder.cpp.i
+src/core/scene/scene.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.i
+.PHONY : src/core/scene/scene.cpp.i
 
-src/core/scene_builder.s: src/core/scene_builder.cpp.s
+src/core/scene/scene.s: src/core/scene/scene.cpp.s
 
-.PHONY : src/core/scene_builder.s
+.PHONY : src/core/scene/scene.s
 
 # target to generate assembly for a file
-src/core/scene_builder.cpp.s:
-	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.s
-.PHONY : src/core/scene_builder.cpp.s
+src/core/scene/scene.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.s
+.PHONY : src/core/scene/scene.cpp.s
+
+src/core/scene/scene_builder.o: src/core/scene/scene_builder.cpp.o
+
+.PHONY : src/core/scene/scene_builder.o
+
+# target to build an object file
+src/core/scene/scene_builder.cpp.o:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o
+.PHONY : src/core/scene/scene_builder.cpp.o
+
+src/core/scene/scene_builder.i: src/core/scene/scene_builder.cpp.i
+
+.PHONY : src/core/scene/scene_builder.i
+
+# target to preprocess a source file
+src/core/scene/scene_builder.cpp.i:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.i
+.PHONY : src/core/scene/scene_builder.cpp.i
+
+src/core/scene/scene_builder.s: src/core/scene/scene_builder.cpp.s
+
+.PHONY : src/core/scene/scene_builder.s
+
+# target to generate assembly for a file
+src/core/scene/scene_builder.cpp.s:
+	$(MAKE) -f CMakeFiles/raytracer.dir/build.make CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.s
+.PHONY : src/core/scene/scene_builder.cpp.s
 
 src/exception/param_set_invalid_conversion.o: src/exception/param_set_invalid_conversion.cpp.o
 
@@ -766,12 +604,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/cameras/camera_orthographic.o"
-	@echo "... src/cameras/camera_orthographic.i"
-	@echo "... src/cameras/camera_orthographic.s"
-	@echo "... src/core/Scene.o"
-	@echo "... src/core/Scene.i"
-	@echo "... src/core/Scene.s"
 	@echo "... src/core/background/background.o"
 	@echo "... src/core/background/background.i"
 	@echo "... src/core/background/background.s"
@@ -781,48 +613,36 @@ help:
 	@echo "... src/core/background/impl/background_color.o"
 	@echo "... src/core/background/impl/background_color.i"
 	@echo "... src/core/background/impl/background_color.s"
+	@echo "... src/core/background/impl/background_image.o"
+	@echo "... src/core/background/impl/background_image.i"
+	@echo "... src/core/background/impl/background_image.s"
 	@echo "... src/core/background/impl/background_interpolated.o"
 	@echo "... src/core/background/impl/background_interpolated.i"
 	@echo "... src/core/background/impl/background_interpolated.s"
 	@echo "... src/core/camera/camera.o"
 	@echo "... src/core/camera/camera.i"
 	@echo "... src/core/camera/camera.s"
-	@echo "... src/core/camera/camera_builder.o"
-	@echo "... src/core/camera/camera_builder.i"
-	@echo "... src/core/camera/camera_builder.s"
 	@echo "... src/core/camera/camera_factory.o"
 	@echo "... src/core/camera/camera_factory.i"
 	@echo "... src/core/camera/camera_factory.s"
+	@echo "... src/core/camera/impl/camera_orthographic.o"
+	@echo "... src/core/camera/impl/camera_orthographic.i"
+	@echo "... src/core/camera/impl/camera_orthographic.s"
 	@echo "... src/core/film/film.o"
 	@echo "... src/core/film/film.i"
 	@echo "... src/core/film/film.s"
 	@echo "... src/core/param_set.o"
 	@echo "... src/core/param_set.i"
 	@echo "... src/core/param_set.s"
-	@echo "... src/core/param_set/param_array_item.o"
-	@echo "... src/core/param_set/param_array_item.i"
-	@echo "... src/core/param_set/param_array_item.s"
-	@echo "... src/core/param_set/param_float_item.o"
-	@echo "... src/core/param_set/param_float_item.i"
-	@echo "... src/core/param_set/param_float_item.s"
-	@echo "... src/core/param_set/param_integer_item.o"
-	@echo "... src/core/param_set/param_integer_item.i"
-	@echo "... src/core/param_set/param_integer_item.s"
-	@echo "... src/core/param_set/param_item.o"
-	@echo "... src/core/param_set/param_item.i"
-	@echo "... src/core/param_set/param_item.s"
-	@echo "... src/core/param_set/param_set.o"
-	@echo "... src/core/param_set/param_set.i"
-	@echo "... src/core/param_set/param_set.s"
-	@echo "... src/core/param_set/param_string_item.o"
-	@echo "... src/core/param_set/param_string_item.i"
-	@echo "... src/core/param_set/param_string_item.s"
 	@echo "... src/core/parser.o"
 	@echo "... src/core/parser.i"
 	@echo "... src/core/parser.s"
-	@echo "... src/core/scene_builder.o"
-	@echo "... src/core/scene_builder.i"
-	@echo "... src/core/scene_builder.s"
+	@echo "... src/core/scene/scene.o"
+	@echo "... src/core/scene/scene.i"
+	@echo "... src/core/scene/scene.s"
+	@echo "... src/core/scene/scene_builder.o"
+	@echo "... src/core/scene/scene_builder.i"
+	@echo "... src/core/scene/scene_builder.s"
 	@echo "... src/exception/param_set_invalid_conversion.o"
 	@echo "... src/exception/param_set_invalid_conversion.i"
 	@echo "... src/exception/param_set_invalid_conversion.s"

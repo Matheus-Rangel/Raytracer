@@ -7,7 +7,7 @@ set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR}/lib)
 
 include_directories(./libs/pugixml/src ./libs/glm/glm)
 add_executable(raytracer main.cpp
-        src/core/parser.cpp src/core/parser.h
+        src/core/parser/parser.cpp src/core/parser/parser.h
         src/core/param_set.cpp src/core/param_set.h
         src/exception/param_set_invalid_conversion.cpp src/exception/param_set_invalid_conversion.hpp
         src/core/camera/camera.cpp src/core/camera/camera.h src/core/camera/camera_enums.h

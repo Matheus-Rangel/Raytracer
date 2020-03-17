@@ -109,100 +109,9 @@ CMakeFiles/raytracer.dir/src/exception/param_set_invalid_conversion.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/exception/param_set_invalid_conversion.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/exception/param_set_invalid_conversion.cpp -o CMakeFiles/raytracer.dir/src/exception/param_set_invalid_conversion.cpp.s
 
-CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o: ../src/core/param_set/param_set.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_set.cpp
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_set.cpp > CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_set.cpp -o CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.s
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o: ../src/core/param_set/param_item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_item.cpp
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_item.cpp > CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_item.cpp -o CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.s
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o: ../src/core/param_set/param_integer_item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_integer_item.cpp
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_integer_item.cpp > CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_integer_item.cpp -o CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.s
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o: ../src/core/param_set/param_float_item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_float_item.cpp
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_float_item.cpp > CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_float_item.cpp -o CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.s
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o: ../src/core/param_set/param_string_item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_string_item.cpp
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_string_item.cpp > CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_string_item.cpp -o CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.s
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o: ../src/core/param_set/param_array_item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_array_item.cpp
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_array_item.cpp > CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/param_set/param_array_item.cpp -o CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.s
-
-CMakeFiles/raytracer.dir/src/core/Scene.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/Scene.cpp.o: ../src/core/Scene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/raytracer.dir/src/core/Scene.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/Scene.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/Scene.cpp
-
-CMakeFiles/raytracer.dir/src/core/Scene.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/Scene.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/Scene.cpp > CMakeFiles/raytracer.dir/src/core/Scene.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/Scene.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/Scene.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/Scene.cpp -o CMakeFiles/raytracer.dir/src/core/Scene.cpp.s
-
 CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o: ../src/core/camera/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera.cpp
 
 CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.i: cmake_force
@@ -213,22 +122,22 @@ CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera.cpp -o CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.s
 
-CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o: ../src/cameras/camera_orthographic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/cameras/camera_orthographic.cpp
+CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o: ../src/core/camera/impl/camera_orthographic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/camera/impl/camera_orthographic.cpp
 
-CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/cameras/camera_orthographic.cpp > CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.i
+CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/camera/impl/camera_orthographic.cpp > CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.i
 
-CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/cameras/camera_orthographic.cpp -o CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.s
+CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/camera/impl/camera_orthographic.cpp -o CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.s
 
 CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o: ../src/core/camera/camera_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_factory.cpp
 
 CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.i: cmake_force
@@ -239,22 +148,9 @@ CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_factory.cpp -o CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.s
 
-CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o: ../src/core/camera/camera_builder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_builder.cpp
-
-CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_builder.cpp > CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/camera/camera_builder.cpp -o CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.s
-
 CMakeFiles/raytracer.dir/src/core/film/film.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/film/film.cpp.o: ../src/core/film/film.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/raytracer.dir/src/core/film/film.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/raytracer.dir/src/core/film/film.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/film/film.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/film/film.cpp
 
 CMakeFiles/raytracer.dir/src/core/film/film.cpp.i: cmake_force
@@ -267,7 +163,7 @@ CMakeFiles/raytracer.dir/src/core/film/film.cpp.s: cmake_force
 
 CMakeFiles/raytracer.dir/src/core/background/background.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/background/background.cpp.o: ../src/core/background/background.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/background.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/background.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/background/background.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/background/background.cpp
 
 CMakeFiles/raytracer.dir/src/core/background/background.cpp.i: cmake_force
@@ -278,22 +174,9 @@ CMakeFiles/raytracer.dir/src/core/background/background.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/background/background.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/background/background.cpp -o CMakeFiles/raytracer.dir/src/core/background/background.cpp.s
 
-CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o: CMakeFiles/raytracer.dir/flags.make
-CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o: ../src/core/scene_builder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o"
-	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/scene_builder.cpp
-
-CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.i"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/scene_builder.cpp > CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.i
-
-CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.s"
-	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/scene_builder.cpp -o CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.s
-
 CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o: ../src/core/background/background_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/background/background_factory.cpp
 
 CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.i: cmake_force
@@ -306,7 +189,7 @@ CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.s: cmake_for
 
 CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o: ../src/core/background/impl/background_color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_color.cpp
 
 CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.i: cmake_force
@@ -319,7 +202,7 @@ CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.s: cmake_
 
 CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o: CMakeFiles/raytracer.dir/flags.make
 CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o: ../src/core/background/impl/background_interpolated.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o"
 	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_interpolated.cpp
 
 CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.i: cmake_force
@@ -330,29 +213,62 @@ CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.s"
 	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_interpolated.cpp -o CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.s
 
+CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o: ../src/core/background/impl/background_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_image.cpp
+
+CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_image.cpp > CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.i
+
+CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/background/impl/background_image.cpp -o CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.s
+
+CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o: ../src/core/scene/scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene.cpp
+
+CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene.cpp > CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.i
+
+CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene.cpp -o CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.s
+
+CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o: CMakeFiles/raytracer.dir/flags.make
+CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o: ../src/core/scene/scene_builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o"
+	/usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o -c /home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene_builder.cpp
+
+CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.i"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene_builder.cpp > CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.i
+
+CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.s"
+	/usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/matheus_rangel/Documentos/Raytracer/src/core/scene/scene_builder.cpp -o CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.s
+
 # Object files for target raytracer
 raytracer_OBJECTS = \
 "CMakeFiles/raytracer.dir/main.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/parser.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/param_set.cpp.o" \
 "CMakeFiles/raytracer.dir/src/exception/param_set_invalid_conversion.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/Scene.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o" \
-"CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o" \
+"CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/film/film.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/background/background.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o" \
 "CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o" \
-"CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o"
+"CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o" \
+"CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o" \
+"CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o" \
+"CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o"
 
 # External object files for target raytracer
 raytracer_EXTERNAL_OBJECTS =
@@ -361,27 +277,21 @@ bin/raytracer: CMakeFiles/raytracer.dir/main.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/parser.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/exception/param_set_invalid_conversion.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set/param_set.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set/param_item.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set/param_integer_item.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set/param_float_item.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set/param_string_item.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/param_set/param_array_item.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/Scene.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/camera/camera.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/cameras/camera_orthographic.cpp.o
+bin/raytracer: CMakeFiles/raytracer.dir/src/core/camera/impl/camera_orthographic.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/camera/camera_factory.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/camera/camera_builder.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/film/film.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/background/background.cpp.o
-bin/raytracer: CMakeFiles/raytracer.dir/src/core/scene_builder.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/background/background_factory.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/background/impl/background_color.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/src/core/background/impl/background_interpolated.cpp.o
+bin/raytracer: CMakeFiles/raytracer.dir/src/core/background/impl/background_image.cpp.o
+bin/raytracer: CMakeFiles/raytracer.dir/src/core/scene/scene.cpp.o
+bin/raytracer: CMakeFiles/raytracer.dir/src/core/scene/scene_builder.cpp.o
 bin/raytracer: CMakeFiles/raytracer.dir/build.make
 bin/raytracer: lib/libpugixml.a
 bin/raytracer: CMakeFiles/raytracer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable bin/raytracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matheus_rangel/Documentos/Raytracer/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/raytracer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raytracer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

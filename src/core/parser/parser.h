@@ -6,14 +6,13 @@
 #define RAYTRACER_SRC_CORE_PARSER_H_
 
 #include "pugixml.hpp"
+#include "../param_set.h"
 #include <memory>
-
+#include <list>
+#include <string>
 class Parser {
- private:
-  static std::shared_ptr<Parser> parserPointer;
-  Parser();
  public:
-  static std::shared_ptr<Parser> getInstance();
+  static std::list<ParamSet> getParamList(const std::string &filename);
 };
 
 #endif //RAYTRACER_SRC_CORE_PARSER_H_
