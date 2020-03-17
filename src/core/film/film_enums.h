@@ -6,7 +6,7 @@
 #define RAYTRACER_SRC_CORE_FILM_FILM_ENUMS_H_
 namespace enums{
   enum class ImageType{
-    PPM
+    PNG
   };
   enum class FilmType{
     IMAGE

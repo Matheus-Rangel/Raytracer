@@ -34,8 +34,8 @@ namespace glm
 	/// @tparam L An integer between 1 and 4 included that qualify the dimension of the vector.
 	/// @tparam T Floating-point scalar types.
 	///
-	/// @see <a href="http://www.opengl.org/sdk/docs/manglsl/xhtml/distance.xml">GLSL distance man page</a>
-	/// @see <a href="http://www.opengl.org/registry/doc/GLSLangSpec.4.20.8.pdf">GLSL 4.20.8 specification, section 8.5 Geometric Functions</a>
+	/// @see <a href="http://www.ophttp://www.opengl.org/registry/doc/GLSLangSpec.4.20.8.pdfengl.org/sdk/docs/manglsl/xhtml/distance.xml">GLSL distance man page</a>
+	/// @see <a href="">GLSL 4.20.8 specification, section 8.5 Geometric Functions</a>
 	template<length_t L, typename T, qualifier Q>
 	GLM_FUNC_DECL T distance(vec<L, T, Q> const& p0, vec<L, T, Q> const& p1);
 

@@ -11,13 +11,24 @@ namespace enums{
     INTERPOLATED,
     MISSING
   };
-  BgType getBgType(std::string type){
+  enum class BgMapping{
+    SCREEN,
+    SPHERICAL
+  };
+  BgType getBgType(const std::string &type){
     if(type == "colors"){
       return BgType::COLOR;
     }else if(type == "interpolated") {
       return BgType::INTERPOLATED;
     }else{
       return BgType::MISSING;
+    }
+  }
+  BgMapping getBgMapping(std::string &mapping){
+    if(mapping == "spherical"){
+      return BgMapping::SPHERICAL;
+    }else {
+      return BgMapping::SCREEN;
     }
   }
 }

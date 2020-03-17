@@ -8,7 +8,7 @@
 
 class Camera {
  public:
-  virtual CameraType getType();
+  virtual enums::CameraType getType();
 };
 
 #endif //RAYTRACER_SRC_CORE_CAMERA_CAMERA_H_
