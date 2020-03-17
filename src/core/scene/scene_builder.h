@@ -18,9 +18,6 @@ class SceneBuilder {
   operator Scene &&() {
 	return std::move(scene); // notice the move
   }
-  Scene build(){
-    return sce;
-  }
 };
 SceneBuilder Scene::builder() {
   return SceneBuilder();
